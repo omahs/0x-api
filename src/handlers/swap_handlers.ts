@@ -177,7 +177,7 @@ export class SwapHandlers {
                     blockNumber: quote.blockNumber,
                     slippage: params.slippagePercentage,
                     estimatedGas: quote.estimatedGas,
-                    enableSlippageProtection: params.enableSlippageProtection
+                    enableSlippageProtection: params.enableSlippageProtection,
                 },
                 true,
                 kafkaProducer,
