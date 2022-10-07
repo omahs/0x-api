@@ -23,6 +23,7 @@ interface QuoteReportLogOptionsBase {
     slippage: number | undefined;
     blockNumber: number | undefined;
     estimatedGas: BigNumber;
+    enableSlippageProtection: boolean | undefined;
 }
 
 interface ExtendedQuoteReportForTakerTxn extends QuoteReportLogOptionsBase {
